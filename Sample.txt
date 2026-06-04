@@ -1,0 +1,12 @@
+public class Demo {
+    private static int count;
+    public Demo(int x) {
+        count = x;
+    }
+    public void show() {
+        if(count < 10) {
+            count = count + 1;
+        }
+        return;
+    }
+}
